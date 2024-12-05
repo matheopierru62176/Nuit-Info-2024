@@ -48,6 +48,16 @@
             title: "Système nerveux",
             shortDescription: "Le cerveau et les nerfs.",
             description: "Le système nerveux coordonne les actions du corps et transmet les signaux entre le cerveau et les différentes parties du corps."
+          },
+          {
+            title: "Systeme digestif",
+            shortDescription: "L'estomac et les intestins.",
+            description: "Le système digestif décompose les aliments en nutriments absorbables et élimine les déchets du corps."
+          },
+          {
+            title: "Système Sanguin",
+            shortDescription: "Le sang et les cellules sanguines.",
+            description: "Le système sanguin transporte l'oxygène, les nutriments et les déchets à travers le corps, et joue un rôle important dans l'immunité et la coagulation."
           }
         ],
         activeCard: null, // Index de la carte active
@@ -83,7 +93,7 @@
   }
   
   .body-image {
-    width: 100%;
+    width: 70%;
     height: 100vh;
     object-fit: cover;
   }
@@ -93,9 +103,11 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color : black;
   }
   
   .card {
+
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -125,10 +137,12 @@
   .small-card-content h3 {
     margin-bottom: 15px;
     font-size: 20px;
+    color: black;
   }
   
   .small-card-content p {
     font-size: 16px;
+    color : black;
   }
   
   button {
