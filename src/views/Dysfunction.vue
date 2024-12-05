@@ -1,4 +1,4 @@
-<template>
+<template class="dysfunction1">
     <div>
       <h1>Dysfonctionnements des systèmes</h1>
       <p>Découvrez les conséquences des dysfonctionnements dans les systèmes humains et océaniques.</p>
@@ -16,6 +16,9 @@
   <style scoped>
   h1 {
     color: #e74c3c;
+  }
+  .dysfunction1 {
+    padding-top: 35px;
   }
   </style>
   

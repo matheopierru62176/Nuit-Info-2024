@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="header">
       <nav>
         <ul>
           <li><router-link to="/" class="nav-item">Accueil</router-link></li>
@@ -21,7 +21,7 @@
     background-color: #2c3e50; /* Un bleu/gris profond */
     color: white;
     padding: 15px 0;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -70,6 +70,16 @@
     font-size: 16px;
     padding: 12px 25px;
   }
+
+  .header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
 }
   </style>
   
